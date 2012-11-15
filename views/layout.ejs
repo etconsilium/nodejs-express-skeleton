@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html><head>
+<title><%=title%></title>
+<meta charset="<%=charset%>">
+<meta name="description" content="<%=description%>">
+<script>
+	if (!jQuery) document.writeln('<sc'+'ript type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></sc'+'ript>');
+	if (!jQuery) document.writeln('<sc'+'ript type="text/javascript" src="//code.jquery.com/jquery-latest.min.js"></sc'+'ript>');
+	if (!jQuery) document.writeln('<sc'+'ript type="text/javascript" src="//'+window.location.hostname+'/js/jquery.min.js"></sc'+'ript>');
+	if (!jQuery) location.href='/no.jquery.html';
+</script>
+<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<script type="text/javascript" src="/99L/js/prettify.js"></script>                                 
+<script type="text/javascript" src="/99L/js/kickstart.js"></script>                                
+<link rel="stylesheet" type="text/css" href="/99L/css/kickstart.css" media="all" />                
+<link rel="stylesheet" type="text/css" href="/99L/box-shadow.css" media="all" />                        
+<link rel="stylesheet" type="text/css" href="/99L/style.css" media="all" />                        
+</head>
+<body>
+<a id="top-of-page"></a>
+<div id="wrap" class="clearfix">
+	<%- body %>
+	<div id="footer">
+	(cc-by-na) <a href="">VS</a> 2011–2012 .
+	Powered by <a href="http://www.99lime.com">99 Lime</a>
+	, <a href="http://www.nodejs.org">NodeJS</a>
+	, <a href="https://github.com/etconsilium/">GitHub</a>
+	, <a href="http://www.sublimetext.com">SubLimeText2</a>
+	<a id="link-top" href="#top-of-page">Top</a>
+	</div>
+</div>
+<div class="clear"></div>
+</body></html>

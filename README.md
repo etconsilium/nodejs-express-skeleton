@@ -1,2 +1,5 @@
-nodejs-express-skeleton
+Skeleton for Express' application
 =======================
+
+просто шаблон каталогов. сделано для себя.
+рекомендутся совместно с 99lime.com
